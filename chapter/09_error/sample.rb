@@ -1,3 +1,4 @@
+puts 'Start.'
 module Greeter
   def hello
     'hello'
@@ -5,3 +6,5 @@ module Greeter
 end
 
 greeter = Greeter.new
+
+puts 'End.'
